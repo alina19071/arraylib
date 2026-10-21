@@ -78,7 +78,7 @@ static void sort_bubble(int* a, std::size_t n) {
 
 double arr_median(const int* arr, std::size_t n) {
     if (n == 0) return 0.0;
-
+    // fix
     int* copy = new int[n];
     for (std::size_t i = 0; i < n; ++i) {
         copy[i] = arr[i];
